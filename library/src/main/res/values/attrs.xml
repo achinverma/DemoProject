@@ -1,0 +1,67 @@
+<resources>
+
+    <attr name="cropImageStyle" format="reference" />
+
+    <declare-styleable name="CropImageView">
+        <attr name="highlightColor" format="reference|color" />
+        <attr name="showThirds" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DraggableGridView">
+        <attr name="itemWidth" format="dimension"/>
+        <attr name="itemHeight" format="dimension"/>
+        <attr name="colCount" format="integer"/>
+        <attr name="yPadding" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="TinderRecyclerView">
+        <attr name="spanCount" format="integer" />
+        <attr name="aspectRatio" format="float" />
+        <attr name="numberColoum" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="RangeSeekBar">
+        <attr name="rsb_max" format="float"/>
+        <attr name="rsb_min" format="float"/>
+        <attr name="rsb_reserve" format="float"/>
+        <attr name="rsb_cells" format="integer"/>
+        <attr name="rsb_progressHintMode" format="enum">
+            <enum name="defaultMode" value="0"/>
+            <enum name="alwaysHide" value="1"/>
+            <enum name="touchAlwaysShow" value="2"/>
+            <enum name="alwaysShow" value="3"/>
+        </attr>
+        <attr name="rsb_lineColorSelected" format="color"/>
+        <attr name="rsb_lineColorEdge" format="color"/>
+        <attr name="rsb_thumbPrimaryColor" format="color"/>
+        <attr name="rsb_thumbSecondaryColor" format="color"/>
+        <attr name="rsb_markTextArray" format="reference"/>
+        <attr name="rsb_thumbResId" format="reference"/>
+        <!-- must use 9 path ！！！-->
+        <attr name="rsb_progressHintResId" format="reference"/>
+        <attr name="rsb_textPadding" format="dimension" />
+        <attr name="rsb_textSize" format="dimension" />
+        <attr name="rsb_hintBGHeight" format="dimension" />
+        <attr name="rsb_hintBGWith" format="dimension" />
+        <attr name="rsb_hintBGPadding" format="dimension" />
+        <attr name="rsb_seekBarHeight" format="dimension"/>
+        <attr name="rsb_thumbSize" format="dimension"/>
+        <attr name="rsb_cellMode" format="enum">
+            <enum name="number" value="0"/>
+            <enum name="other" value="1"/>
+        </attr>
+        <attr name="rsb_seekBarMode" format="enum">
+            <enum name="single" value="1"/>
+            <enum name="range" value="2"/>
+        </attr>
+
+    </declare-styleable>
+
+</resources>
